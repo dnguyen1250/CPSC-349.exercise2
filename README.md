@@ -1,1 +1,1 @@
-# CPSC-349.exercise2
+# CPSC-349.exercise1
