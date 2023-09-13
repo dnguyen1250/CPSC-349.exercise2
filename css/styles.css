@@ -1,8 +1,11 @@
-body {
+/* body {
   background-color: aqua;
+} */
+
+.body {
+  background-color: lightblue;
 }
 
-.contactme-h2 {
-  padding: 10px;
-  margin: 10px;
+.body-second {
+  background-color: red;
 }
