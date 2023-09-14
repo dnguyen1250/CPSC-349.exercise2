@@ -1,8 +1,37 @@
 body {
-  background-color: aqua;
-}
-
-.contactme-h2 {
-  padding: 10px;
+  background-color: lightblue;
+  padding: 5px;
   margin: 10px;
 }
+
+@media (min-width: 1080px) {
+  body {
+    font-size: 20px; /* Adjust font size for smaller screens */
+  }
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px;
+}
+
+/* #contact {
+  padding: 10px;
+  margin: 10px;
+} */
