@@ -13,7 +13,7 @@ nav {
   left: 0;
   width: 99%;
   background: black;
-  padding: 8px;
+  /* padding: 8px; */
   z-index: 1000;
 }
 
@@ -26,7 +26,7 @@ nav ul {
 }
 
 nav li {
-  margin: 8px 0px;
+  margin: 8px 0;
 }
 
 nav a {
@@ -42,10 +42,9 @@ nav a:hover {
   cursor: pointer;
   opacity: 0.7;
   font-size: 28px;
-  transform: scale(1.1);
+  transform: scale(1.1) translateZ(20px);
   font-weight: bolder;
   text-transform: none;
-  transform: translateZ(20px);
 }
 
 img {
@@ -80,7 +79,7 @@ iframe {
 table {
   table-layout: auto;
   border-collapse: collapse;
-  border-spacing: none;
+  border-spacing: 1;
   width: auto;
   caption-side: top;
   margin: 0 auto;
